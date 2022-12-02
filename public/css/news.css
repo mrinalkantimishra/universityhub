@@ -1,0 +1,105 @@
+#ABC {
+    background-color: rgb(182, 182, 182);
+    position: absolute;
+    top: 120px;
+    height: 120px;
+
+}  
+  body{
+    background: white;
+    margin: 0;    } 
+    .header
+      {
+          height: 100px;
+          width: 100%;
+      }
+      
+      .logo{
+          position: absolute;
+          top:0px;
+          left: 30px;
+          height: 70px;
+      }
+      .logo1{
+          position: absolute;
+          top:0px;
+          right: 30px;
+          height: 80px;
+      }
+      .navbar
+      {
+          height: 50px;
+          width: 100%;
+          background-color: rgba(0, 0, 0, 0.88);
+          color: white;
+          position: absolute;
+          top:70px;
+          left: 0px;
+          right: 0px;
+          display: inline-flex;
+          justify-content: center;
+          align-items: center;
+      }
+      #ABC p{
+        
+        text-align:left;
+        padding:50px;
+        font-size: 5px;
+      }
+      
+      .navbar a{
+          padding-left: 120px;
+          font-weight: bold;
+          font-size: 15px;
+          text-decoration: none;
+          color: white;
+          margin-left: 100px;
+      }
+      .button
+      {
+          background-color: black; 
+          border-radius: 10px; 
+          height:35px;
+          width: 100px;
+          position: relative;
+          box-shadow: 0px 0px 10px 1px white;
+      }
+      a button{
+          color: white;
+          font-size: 15px;
+          font-family: 'Times New Roman', Times, serif;
+          
+      }
+      .headding{
+        color: black;
+        font-size: 60px;
+        font-family:'Times New Roman', Times, serif;
+        text-align: center;
+      }
+      .tail{
+        position:absolute;
+        top: 220vh;
+        height: 120px;
+        width: 100%;
+        left: 0%;
+        background-color: rgba(0, 0, 0, 0.88);
+      }
+
+      .tail p{
+        color: white;
+        margin-left: 50px;
+
+      }
+      .tail a{
+        text-decoration: none;
+        color: blue;
+      }
+      .linktail{
+        display: inline-block;
+        position: relative;
+        left: 150px;
+        top: 40px;
+      }
+      .linktail img{
+        height: 30px;
+      }

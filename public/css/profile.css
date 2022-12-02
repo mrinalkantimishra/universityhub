@@ -1,0 +1,140 @@
+  .header
+        {
+            height: 100px;
+            width: 100%;
+        }
+        
+        .logo{
+            position: absolute;
+            top:0px;
+            left: 30px;
+            height: 70px;
+        }
+        .logo1{
+            position: absolute;
+            top:0px;
+            right: 30px;
+            height: 70px;
+        }
+        .container{
+          margin-top: 30px;
+        }
+        .navbar
+        {
+            height: 50px;
+            width: 100%;
+            background-color: black;
+            color: white;
+            position: absolute;
+            top:70px;
+            left: 0px;
+            right: 0px;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .navbar a{
+            padding-left: 120px;
+            font-weight: bold;
+            font-size: 15px;
+            text-decoration: none;
+            color: white;
+            margin-left: 100px;
+        }
+        .button
+        {
+            background-color: black; 
+            border-radius: 10px; 
+            height:35px;
+            width: 100px;
+            position: relative;
+            box-shadow: 0px 0px 10px 1px white;
+        }
+        a button{
+            color: white;
+            font-size: 15px;
+            font-family: 'Times New Roman', Times, serif;
+            
+        }
+        .headding{
+          color: black;
+          font-size: 60px;
+          font-family:'Times New Roman', Times, serif;
+          text-align: center;
+        }
+        .tail{
+          position:absolute;
+          top: 130vh;
+          height: 120px;
+          width: 100%;
+          left: 0%;
+          background-color: rgb(0, 0, 0);
+        }
+        .header a:hover{
+            transform: scale(1.1);
+            transition: 1s;
+        }
+        .tail p{
+          color: white;
+          margin-left: 50px;
+
+        }
+        .tail a{
+          text-decoration: none;
+          color: blue;
+        }
+        .linktail{
+          display: inline-block;
+          position: relative;
+          left: 150px;
+          top: 40px;
+        }
+        .linktail img{
+          height: 30px;
+        }
+.student-profile .card .card-header .profile_img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.card{
+  text-align: center;
+
+}
+.cardtext{
+  text-align: center;
+  width: 40%;
+  margin-left: 29%;
+}
+
+.student-profile .card h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+.student-profile .card p {
+    font-size: 16px;
+    color: black;
+    padding: 10px;
+    
+    
+}
+.student-profile .table{
+    font-size: 14px;
+    padding: 5px 10px;
+    color: #000;
+    margin-left: 570px;
+    
+}
+.student-profile .table td {
+    font-size: 14px;
+    padding: 5px 10px;
+    color: #000;
+    text-align: center;
+    width: 100px;
+}
+
