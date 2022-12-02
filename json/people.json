@@ -1,0 +1,25 @@
+{
+
+    "1":{
+        "name": "rahul",
+        "ID":"210275",
+        "number":"9490597049",
+        "roll":"210C2030066",
+        "year":"2021",
+        "gender":"Male",
+        "branch":"Btech",
+        "blood":"B+"
+    },
+
+    "2":{
+        "name": "karthik",
+        "ID":"210274",
+        "number":"597049",
+        "roll":"100",
+        "year":"2021",
+        "gender":"Male",
+        "branch":"Btech",
+        "blood":"O+"
+    }
+
+}
