@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/social.css">
+    <script src="https://kit.fontawesome.com/f6dcf461c1.js" crossorigin="anonymous"></script>
+    
+ 
+</head>
+<body>
+    <div class="header">
+        <img class="logo" src="img/logo.png" alt="Go Student"/>
+        <img class="logo1" src="https://www.ic3conference.com/wp-content/uploads/2019/11/BML-Munjal-University-Logo-WEB.png" alt="BML Munjal University"/>
+        <div class="navbar"> 
+            <a href="social.ejs">Social</a>
+            <a href="home.ejs">Complaints</a>
+            <a href="news.ejs">News</a>
+            <a href="faculty.ejs">Faculty</a>
+            <a href="login.ejs"><button class="button">login/signup</button><a href=""></a>
+        </div> 
+    </div>
+    <div class="main">
+        <h1>Social Media</h1>
+        <button class="postButton"><a href="post.ejs">Post</a></button>
+
+        <!-- test -->
+        <div class="box1">
+            <h3><%=name1%></h3>
+            <img  class="post" src="https://www.bmu.edu.in/wp-content/uploads/2018/12/international-pic-1.jpg">
+            <p class="caption"><span id="cap1">Lorei alias! Quos quod mollitia dicta magnam quia,</span></p>
+            
+            <div class="btns">
+                <Button onclick="Toggle1()" id="btnh1" class="btn"><i id="bt" class="fas fa-heart"></i></Button>
+                <span id="count1">0</span>
+                
+            </div>
+
+            <div class="comment_btn">
+                <Button class="c_btn"><i class="fa-sharp fa-solid fa-comment"></i></Button>
+               
+            </div>
+            
+            
+        </div>
+
+
+        <div class="box2">
+            <h3><%=name2%></h3>
+            <img  class="post" src="https://europebookings.com/wp-content/uploads/fest-festival-fans-dancing-colours.jpg">
+            <p class="caption"><span id="cap2">Lorei alias! Quos quod mollitia dicta magnam quia,</span></p>
+            <div class="btns">
+                <Button onclick="Toggle2()" id="btnh2" class="btn"><i id="bt" class="fas fa-heart"></i></Button>
+                <span id="count2">0</span>
+            </div>
+
+            <div class="comment_btn">
+                <Button class="c_btn"><i class="fa-sharp fa-solid fa-comment"></i></Button>
+               
+            </div>
+        </div>
+    </div>
+    <div class="tail">
+        <div style="display: inline-flex; margin-top: 10px; font-size: 20px;">
+        <p>Email:<a href="info@bmu.edu.in">info@bmu.edu.in</a></p><br>
+        <p><a href="https://www.bmu.edu.in/">www.bmu.edu.in</a></p>
+        </div>
+        
+      
+        <div style="display: inline-flex;margin-top: 20px; font-size: 15px;">
+          <pre style="color: white;">
+          E: admissions@bmu.edu.in
+          T: 1800-103-6888 (toll free)
+          SMS ‘BMU’ to 92200 92200
+          </pre>
+        </div>
+        <div class="linktail">
+          <a><img src="img/fb.png"></a>
+          <a><img src="img/linkdin.png"></a>
+          <a><img src="img/twiter.png"></a>
+          <a><img src="img/YOUTUBE.png"></a>
+          <a><img src="img/INSTA.png"></a>
+        </div>
+        <img src="https://www.ic3conference.com/wp-content/uploads/2019/11/BML-Munjal-University-Logo-WEB.png" style="height: 100px; width: 230px; position:absolute; right: 10px; top:15px; display: inline-flex;">
+      </div>
+
+
+      <script>
+         
+        function Toggle1(){
+            var btnvar1 = document.getElementById('btnh1');
+         let count = document.querySelector("#count1");
+         let clicked = false;
+            if (btnvar1.style.color =="red") {
+                    btnvar1.style.color = "rgba(255, 0, 0, 0.558)";
+                    clicked = false;
+                    count.textContent--;
+            }
+            else{
+                btnvar1.style.color = "red"  
+                if (!clicked) 
+                {
+                    clicked = true;
+                    count.textContent++;
+                    
+                } 
+                     
+            }
+            
+        }
+        function Toggle2() {
+            var btnvar1 = document.getElementById('btnh2');
+            let count = document.querySelector("#count2");
+            let clicked = false;
+            if (btnvar1.style.color =="red") {
+                    btnvar1.style.color = "rgba(255, 0, 0, 0.558)";
+                    clicked = false;
+                    count.textContent--;
+            }
+            else{
+                btnvar1.style.color = "red"  
+                if (!clicked) 
+                {
+                    clicked = true;
+                    count.textContent++;
+                    
+                } 
+                     
+            }
+        }
+        
+
+      </script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/profile.css" type="text/css">
+    <title>Profile</title>
+</head>
+
+<body>
+  <div class="header">
+    <img class="logo" src="img/logo.png" alt="Go Student"/>
+    <img class="logo1" src="https://www.ic3conference.com/wp-content/uploads/2019/11/BML-Munjal-University-Logo-WEB.png" alt="BML Munjal University"/>
+    <div class="navbar"> 
+        <a href="social.ejs">Social</a>
+        <a href="home.ejs">Complaints</a>
+        <a href="news.ejs">News</a>
+        <a href="faculty.ejs">Faculty</a>
+        <a href="profile.ejs"><button class="button">Profile</button><a href=""></a>
+    </div> 
+</div>
+    <div class="student-profile">
+        <div class="container">
+          <div class="row">
+              <div class="card">
+                <div class="card-header">
+                  <img class="profile_img" src="https://static.vecteezy.com/system/resources/thumbnails/005/544/770/small/profile-icon-design-free-vector.jpg" alt="student dp">
+                  <h3 > <%= name %> </h3>
+                </div>
+                <div class="cardbody">
+                  <p ><strong >Student ID:</strong><%=ID%></p>
+                  <p ><strong >Phone Number:</strong><%=number%></p>
+                </div>
+              </div>
+            </div>
+            
+              <div class="card ">
+                  <h3 class="mb-0"><i class="far fa-clone pr-1"></i>General Information</h3>
+                </div>
+
+                  <table class="table">
+                    <tr>
+                      <th width="30%">Roll</th>
+                      <td width="2%">:</td>
+                      <td> <%=roll%></td>
+                    </tr>
+                    <tr>
+                      <th width="30%">Academic Year	</th>
+                      <td width="2%">:</td>
+                      <td><%=year%></td>
+                    </tr>
+                    <tr>
+                      <th width="30%">Gender</th>
+                      <td width="2%">:</td>
+                      <td><%=gender%></td>
+                    </tr>
+                    <tr>
+                      <th width="30%">Branch</th>
+                      <td width="2%">:</td>
+                      <td><%=branch%></td>
+                    </tr>
+                    <tr>
+                      <th width="30%">blood</th>
+                      <td width="2%">:</td>
+                      <td><%=blood%></td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+                <div style="height: 26px"></div>
+              <div class="card">
+                <div class="card">
+                  <h3>Other Information</h3>
+                </div>
+                <div class="cardtext">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tail">
+        <div style="display: inline-flex; margin-top: 10px; font-size: 20px;">
+        <p>Email:<a href="info@bmu.edu.in">info@bmu.edu.in</a></p><br>
+        <p><a href="https://www.bmu.edu.in/">www.bmu.edu.in</a></p>
+        </div>
+        
+      
+        <div style="display: inline-flex;margin-top: 20px; font-size: 15px;">
+          <pre style="color: white;">
+          E: admissions@bmu.edu.in
+          T: 1800-103-6888 (toll free)
+          SMS ‘BMU’ to 92200 92200
+          </pre>
+        </div>
+        <div class="linktail">
+          <a><img src="fb.png"></a>
+          <a><img src="linkdin.png"></a>
+          <a><img src="twiter.png"></a>
+          <a><img src="YOUTUBE.png"></a>
+          <a><img src="INSTA.png"></a>
+        </div>
+        <img src="https://www.ic3conference.com/wp-content/uploads/2019/11/BML-Munjal-University-Logo-WEB.png" style="height: 100px; width: 300px; position:absolute; right: 10px; top:15px; display: inline-flex;">
+      </div>
+
+      
+</body>
+    
+</html>
